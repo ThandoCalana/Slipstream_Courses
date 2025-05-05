@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="15" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\*.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>|</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>*.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="id" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="date" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="price" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="bedrooms" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="bathrooms" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_living" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_lot" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="floors" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="waterfront" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="view" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="condition" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_above" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_basement" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="yr_built" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="yr_renovated" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="zipcode" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="lat" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="long" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_living15" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+            <Field name="sqft_lot15" size="254" source="File: C:\Users\Tcala\Documents\Slipstream\Courses\Alteryx Masterclass\KC House Data\kc_house_data_1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Tcala\AppData\Local\Temp\Alteryx\Engine_20128_1354fb520e6c4ba788277434f913f45b_\Engine_20128_878c008e7c5f4c49826882c3acb29bf0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Assignment 1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="da3b1e6f-0b59-4b74-a69d-a893b1331da0" />
+      <Telemetry>
+        <PreviousWorkflowId value="07bec979-d77e-4658-bda7-edad09964d0a" />
+        <OriginWorkflowId value="07bec979-d77e-4658-bda7-edad09964d0a" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
